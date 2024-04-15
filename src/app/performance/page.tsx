@@ -1,3 +1,12 @@
+import Hero from '@/components/Hero';
+import performanceImg from 'public/performance.jpg';
+
 export default function PerformancePage() {
-  return <div>Performance Page!</div>;
+  return (
+    <Hero
+      title="We Serve high Performance Applications"
+      imgAlt="welding"
+      imgData={performanceImg}
+    />
+  );
 }
